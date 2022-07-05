@@ -14,7 +14,6 @@ ul#calendario li {
     width: 205px;
     height: 310px;
     margin: 10px;
-    border: 1px solid darkblue;
     border-radius: 20px;
     background-color: white;
     transition: all .3s ease-in;
@@ -42,58 +41,53 @@ ul#calendario li#calendario01 {
     background: url(../imagens/mushoku.jpeg);
     background-position: 50% 50%;
     background-color: white;
-    background-size: 410px 620px;
+    background-size: 110%;
 }
 ul#calendario li#calendario01:hover {
     background-position: 0px 0px ;
-    background-size: 205px 310px;
-    box-shadow: 0 0 1rem darkblue;
+    background-size: 100%;
 }
 
 ul#calendario li#calendario02 {
     background: url(../imagens/sao.jpeg);
     background-position: 50% 50%;
     background-color: white;
-    background-size: 410px 620px;
+    background-size: 110%;
 }
 ul#calendario li#calendario02:hover {
     background-position: 0px 0px ;
-    background-size: 205px 310px;
-    box-shadow: 0 0 1rem darkblue;
+    background-size: 100%;
 }
 
 ul#calendario li#calendario03 {
     background: url(../imagens/overlord.jpeg);
     background-position: 50% 50%;
     background-color: white;
-    background-size: 410px 620px;
+    background-size: 110%;
 }
 ul#calendario li#calendario03:hover {
     background-position: 0px 0px ;
-    background-size: 205px 310px;
-    box-shadow: 0 0 1rem darkblue;
+    background-size: 100%;
 }
 
 ul#calendario li#calendario04 {
     background: url(../imagens/slime.jpeg);
     background-position: 50% 50%;
     background-color: white;
-    background-size: 410px 620px;
+    background-size: 110%;
 }
 ul#calendario li#calendario04:hover {
     background-position: 0px 0px ;
-    background-size: 205px 310px;
-    box-shadow: 0 0 1rem darkblue;
+    background-size: 100%;
 }
 
 ul#calendario li#calendario05 {
     background: url(../imagens/taizai.jpeg);
     background-position: 50% 50%;
-    background-size: 410px 620px;
+    background-size: 110%;
     background-color: white;
 }
 ul#calendario li#calendario05:hover {
     background-position: 0px 0px ;
-    background-size: 205px 310px;
-    box-shadow: 0 0 1rem darkblue;
+    background-size: 100%;
 }
