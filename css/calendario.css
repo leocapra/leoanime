@@ -39,7 +39,7 @@ ul#calendario li:hover {
 
 
 ul#calendario li#calendario01 {
-    background: url(../imagens/mushoku.png);
+    background: url(../imagens/mushoku.jpeg);
     background-position: 50% 50%;
     background-color: white;
     background-size: 410px 620px;
@@ -51,7 +51,7 @@ ul#calendario li#calendario01:hover {
 }
 
 ul#calendario li#calendario02 {
-    background: url(../imagens/sao.png);
+    background: url(../imagens/sao.jpeg);
     background-position: 50% 50%;
     background-color: white;
     background-size: 410px 620px;
@@ -63,7 +63,7 @@ ul#calendario li#calendario02:hover {
 }
 
 ul#calendario li#calendario03 {
-    background: url(../imagens/overlord.png);
+    background: url(../imagens/overlord.jpeg);
     background-position: 50% 50%;
     background-color: white;
     background-size: 410px 620px;
@@ -75,7 +75,7 @@ ul#calendario li#calendario03:hover {
 }
 
 ul#calendario li#calendario04 {
-    background: url(../imagens/slime.png);
+    background: url(../imagens/slime.jpeg);
     background-position: 50% 50%;
     background-color: white;
     background-size: 410px 620px;
@@ -87,7 +87,7 @@ ul#calendario li#calendario04:hover {
 }
 
 ul#calendario li#calendario05 {
-    background: url(../imagens/taizai.png);
+    background: url(../imagens/taizai.jpeg);
     background-position: 50% 50%;
     background-size: 410px 620px;
     background-color: white;
