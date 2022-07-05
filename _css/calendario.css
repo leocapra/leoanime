@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+
+ul#calendario {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#calendario li {
+    float: left;
+    width: 205px;
+    height: 310px;
+    margin: 10px;
+    border: 1px solid darkblue;
+    border-radius: 20px;
+    background-color: white;
+    transition: all .3s ease-in;
+}
+
+ul#calendario li span {
+    opacity: 0;
+    color: white;
+    background-color: darkblue;
+    font-size: 9pt;
+    line-height: 550px;
+    padding: 5px;
+}
+
+ul#calendario li:hover span {
+    opacity: 1;
+}
+
+ul#calendario li:hover {
+    transform: scale(1.1);
+}
+
+
+ul#calendario li#calendario01 {
+    background: url(../_imagens/mushoku.png);
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 410px 620px;
+}
+ul#calendario li#calendario01:hover {
+    background-position: 0px 0px ;
+    background-size: 205px 310px;
+    box-shadow: 0 0 1rem darkblue;
+}
+
+ul#calendario li#calendario02 {
+    background: url(../_imagens/sao.png);
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 410px 620px;
+}
+ul#calendario li#calendario02:hover {
+    background-position: 0px 0px ;
+    background-size: 205px 310px;
+    box-shadow: 0 0 1rem darkblue;
+}
+
+ul#calendario li#calendario03 {
+    background: url(../_imagens/overlord.png);
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 410px 620px;
+}
+ul#calendario li#calendario03:hover {
+    background-position: 0px 0px ;
+    background-size: 205px 310px;
+    box-shadow: 0 0 1rem darkblue;
+}
+
+ul#calendario li#calendario04 {
+    background: url(../_imagens/slime.png);
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 410px 620px;
+}
+ul#calendario li#calendario04:hover {
+    background-position: 0px 0px ;
+    background-size: 205px 310px;
+    box-shadow: 0 0 1rem darkblue;
+}
+
+ul#calendario li#calendario05 {
+    background: url(../_imagens/taizai.png);
+    background-position: 50% 50%;
+    background-size: 410px 620px;
+    background-color: white;
+}
+ul#calendario li#calendario05:hover {
+    background-position: 0px 0px ;
+    background-size: 205px 310px;
+    box-shadow: 0 0 1rem darkblue;
+}
