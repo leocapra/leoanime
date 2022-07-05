@@ -5,7 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animes</title>
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/animespages.css">
+
+    <style>
+        footer {
+            top: 350px;
+        }
+        div.banner {
+            width: 40%;
+            position: relative;
+            display: block;
+            top: 30px;
+            left: 60px;
+        }
+
+        div#sinopse {
+            display: block;
+            text-align: justify;
+            float: left;
+            margin: auto;
+            padding: 40px;
+            position: absolute;
+            top: 100px;
+            left: 400px;
+            width: 60%;
+        }
+
+        iframe {
+            margin: auto;
+            display: block;
+            position: absolute;
+            top: 350px;
+            left: 500px;
+            width: 60%;
+            height: 65%;
+        }
+
+        ul.banner {
+            margin: 0 auto;
+            padding: 10px;
+            overflow: hidden;
+            list-style: none;
+        }
+
+        ul.banner li {
+            float: left;
+            width: 320px;
+            height: 500px;
+            margin: 10px;
+            border-radius: 10px;
+            background-color: white;
+        }
+
+        ul.banner li span {
+            opacity: 0;
+            color: white;
+            background-color: darkblue;
+            font-size: 12pt;
+            line-height: 920px;
+            padding: 6px;
+        }
+
+        ul.banner li:hover span {
+            opacity: 1;
+        }
+
+        ul.banner li.banner {
+            background: url(../imagens/mushoku.jpeg);
+            background-color: white;
+            background-size: 110%;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -30,33 +100,39 @@
         </ul>
     </header>
     <article>
-    <div id="titulo">
-        <h1>Mushoku Tensei: Isekai Ittara Honki Dasu</h1>
-    </div>
-    <div id="sinopse">
-        <h2>Sinopse</h2>
-        <p>"Mushoku Tensei: Isekai Ittara Honki Dasu é uma série de light novel japonesa de Rifujin na Magonote sobre um
-            homem desempregado e desesperado que reencarna em um mundo de fantasia enquanto guarda suas memórias,
-            determinado a viver sua nova vida sem arrependimentos." Segundo a <a
-                href="https://pt.wikipedia.org/wiki/Mushoku_Tensei"> Wikipédia</a></p>
-            </div>
-        <div class="banner">
-            <img class="banner" src="imagens/mushoku.jpeg" alt="Mushoku tensei banner">
-        </div>
-        <iframe width="800" height="450" src="https://www.youtube.com/embed/OS6KeVt1Ve0"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-    </iframe>
+        <div id="sinopse">
+            <h2>Sinopse</h2>
+            <p>"Mushoku Tensei: Isekai Ittara Honki Dasu é uma série de light novel japonesa de Rifujin na Magonote
+                sobre um
+                homem desempregado e desesperado que reencarna em um mundo de fantasia enquanto guarda suas memórias,
+                determinado a viver sua nova vida sem arrependimentos." Segundo a <a
+                    href="https://pt.wikipedia.org/wiki/Mushoku_Tensei"> Wikipédia</a></p><br>
 
-    <aside>
-    </aside>
-    <footer id="rodape">
-        <nav id="copyright">
-            <h5 style="text-align: center;">
-                Copyright &copy; 2022 - by Leo Capra<br />
-                <a href="https://github.com/leocapra" target="_blank">GitHub</a>
-            </h5>
-        </nav>
-    </footer>
+            <h2>Gêneros</h2>
+
+            <p>Drama, Isekai</p>
+        </div>
+        <article>
+            <div class="banner">
+                <h3>Mushoku Tensei: Isekai Ittara Honki Dasu!</h3>
+                <ul class="banner">
+                    <li class="banner"><span>Mushoku Tensei!</span></li>
+                </ul>
+            </div>
+        </article>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/OS6KeVt1Ve0" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+        <aside>
+        </aside>
+        <footer id="rodape">
+            <nav id="copyright">
+                <h5 style="text-align: center;">
+                    Copyright &copy; 2022 - by Leo Capra<br />
+                    <a href="https://github.com/leocapra" target="_blank">GitHub</a>
+                </h5>
+            </nav>
+        </footer>
 </body>
