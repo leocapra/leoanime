@@ -17,7 +17,7 @@ body {
     width: 45px;
     height: 45px;
     border-radius: 100px;
-    background: url(../_imagens/logo.png);
+    background: url(../imagens/logo.png);
     margin: 15px;
     background-position: 50% 50%;
     background-size: 100%;
