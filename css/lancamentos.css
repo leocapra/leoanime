@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+
+ul#lancamento {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#lancamento li {
+    float: left;
+    width: 205px;
+    height: 125px;
+    margin: 12px;
+    border-radius: 10px;
+    background-color: white;
+    transition: all .3s ease-out;
+}
+
+ul#lancamento li span#episodio {
+    float: right;
+    opacity: 1;
+    color: white;
+    background-color: darkblue;
+    font-size: 10pt;
+    line-height: 10px;
+    padding: 7px;
+    margin-top: 88px;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+ul#lancamento li span#nome {
+    float: left;
+    opacity: 1;
+    color: white;
+    font-size: 10pt;
+    margin-top: 130px;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+ul#lancamento li#lancamento01 {
+    background: url(../imagens/mushoku.jpeg);
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 110%;
+}
+ul#lancamento li#lancamento01:hover {
+    background-size: 100%;
+}
+
+ul#lancamento li#lancamento02 {
+    background: url(../imagens/overlord.jpg);
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 110%;
+}
+ul#lancamento li#lancamento02:hover {
+    background-size: 100%;
+}
+
+ul#lancamento li#lancamento03 {
+    background: url(../imagens/taizai.jpeg);
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 110%;
+}
+ul#lancamento li#lancamento03:hover {
+    background-size: 100%;
+}
+
+ul#lancamento li#lancamento04 {
+    background: url(../imagens/slime.jpeg);
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 110%;
+}
+ul#lancamento li#lancamento04:hover {
+    background-size: 100%;
+}
+
+ul#lancamento li#lancamento05 {
+    background: url(../imagens/sao.jpeg);
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 110%;
+}
+ul#lancamento li#lancamento05:hover {
+    background-size: 100%;
+}
